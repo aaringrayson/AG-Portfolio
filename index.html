@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarin Grayson | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="container flex justify-between align-center">
+                <a href="index.html" class="logo">ag</a>
+
+                <ul class="flex gap-sm">
+                    <li><a class="nav-link active" href="index.html">Work</a></li>
+                    <li><a class="nav-link" target="_blank" href="docs/agResume.docx.pdf">Resume</a></li>
+                    <li><a class="nav-link" href="#contact">Say Hi</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero section -->
+    <main>
+        <div class="container">
+            <h6>Hey, I'm Aarin.</h6>
+            <h1 class="mt-sm">I <span class="highlight">design</span> and <span class="highlight">develop</span> digital experiences that look good and are easy-to-use.</h1>
+        </div>
+    </main>
+
+    <!-- Work section -->
+    <section>
+        <div class="container">
+            <h2>My work</h2>
+            <!-- Work cards container -->
+            <div class="grid mt-lg gap-sm column-3">
+                <!-- Card 1 -->
+                <a href="manicpanic.html">
+                    <img class="mb-sm" src="imgs/manicPanic/mpcollage.png" alt="Manic Panic screenshots">
+                    <h3 class="mb-xs">Manic Panic</h3>
+                    <p>Improving the visual design & information architecture of Manic Panic's website.</p>
+                </a>
+                <!-- Card 2 -->
+                <a href="oshyn.html">
+                    <img class="mb-sm" src="imgs/oshyn/Oshyn.png" alt="Oshyn screenshots">
+                    <h3 class="mb-xs">Oshyn</h3>
+                    <p>Increasing user engagement rates with improved information architecture.</p>
+                </a>
+                <!-- Card 3 -->
+                <a href="rob.html">
+                    <img class="mb-sm" src="imgs/Right on Bracket.png" alt="Right on Bracket screenshots">
+                    <h3 class="mb-xs">Right on Bracket</h3>
+                    <p>Designing a modern, user-friendly online shopping experience.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Say Hi</h2>
+            <div class="grid mt-lg gap-md ">
+                <div>
+                    <!-- Contact form -->
+                    <form action="https://formsubmit.co/aaringrayson@gmail.com" method="post">
+                        <div class="form-control">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" placeholder="johndoe@domain.com" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Hey, Aarin! What's up? I want to talk about..." required></textarea>
+                        </div>
+                        <button class="btn">Send Message</button>
+                    </form>
+                </div>
+                <!-- About me -->
+                <div class="even flex column gap-xs">
+                    <h4>A bit about me</h4>
+                    <p>Hello! I design digital experiences that look good (UI) and are easy to use (UX). I'm also a front-end web developer with a strong understanding of HTML, CSS, JavaScript and Webflow.</p>
+                    <p>When it comes to design, my approach is simple. I believe in prioritizing the user experience and accessibility of the product over the aesthetics. However, I believe good design includes all three elements.</p>
+                    <p>My hobbies & interests include: art, music, philosophy, fitness, dogs, learning new things, coding, designing, guitars, and self-improvement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Aarin Grayson &copy; 2023</p>
+            <div class="social-links mt-sm">
+                <a target="_blank" href="https://github.com/aaringrayson" class="footer-link">
+                    <i class="fa-brands fa-square-github fa-2xl"></i>
+                </a>
+                <a target="_blank" href="https://dribbble.com/aaringrayson" class="footer-link">
+                    <i class="fa-brands fa-square-dribbble fa-2xl"></i>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/aaringrayson/" class="footer-link">
+                    <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

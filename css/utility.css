@@ -1,0 +1,140 @@
+/* General layout */
+section, main {
+    padding: 72px 0 36px 0;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+/* Text stlyes */
+.max-width {
+    width: 650px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Flex styles */
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.gap-xxs {
+    gap: 8px;
+}
+
+.gap-xs {
+    gap: 16px;
+}
+
+.gap-sm {
+    gap: 32px;
+}
+
+.gap-md {
+    gap: 48px;
+}
+
+/* Grid styles */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.column-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Margin  top*/
+.mt-sm {
+    margin-top: 16px;
+}
+
+.mt-md {
+    margin-top: 32px;
+}
+
+.mt-lg {
+    margin-top: 48px;
+}
+
+.mt-xl {
+    margin-top: 72px;
+}
+
+/* Margin bottom */
+.mb-xs {
+    margin-bottom: 8px;
+}
+
+.mb-sm {
+    margin-bottom: 16px;
+}
+
+.mb-md {
+    margin-bottom: 32px;
+}
+
+.mb-lg {
+    margin-bottom: 48px;
+}
+
+.mb-xl {
+    margin-bottom: 72px;
+}
+
+/* Margin top & bottom */
+.my-sm {
+    margin: 16px 0;
+}
+
+.my-md {
+    margin: 32px 0;
+}
+
+.my-lg {
+    margin: 48px 0;
+}
+
+/* Responsive design */
+@media (max-width: 800px) {
+    main, section {
+        padding: 48px 0 28px 0;
+    }
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    h1 {
+        font-size: 4.8rem;
+    }
+    h2 {
+        font-size: 4.0rem;
+    }
+    .btn {
+        width: 100%;
+    }
+    .max-width  {
+        width: 100%;
+    }
+}
